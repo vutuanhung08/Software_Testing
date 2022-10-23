@@ -2,7 +2,7 @@ import unittest
 from Function import electricity_to_money
 
 
-class TestEquivalencePartitioning(unittest.TestCase):
+class TestControlFlow(unittest.TestCase):
     def test_electricity_to_money_case1(self):
         self.assertEqual(electricity_to_money(1.0), -1)
 
